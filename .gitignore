@@ -15,6 +15,10 @@ test/**/next-env.d.ts
 e2e-tests
 test/tmp/**
 
+# Dev
+yarn.lock
+yarn-error.log
+yarn-debug.log
 
 # Production
 build

@@ -1,9 +1,9 @@
-# Project Title
+# KBS (Experimental)
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](./CONTRIBUTING.md)
 
 
-This is another Open Source Project.
+Kindlenext Bootstrap UI Kit is a collection of components that can be used to build a responsive, mobile-first, Bootstrap-based UI.
 
 ## Contributing
 
