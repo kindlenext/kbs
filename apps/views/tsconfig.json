@@ -2,9 +2,10 @@
   "exclude": ["node_modules"],
   "extends": "kbs-tsconfig/nextjs.json",
   "compilerOptions": {
-    "rootDir": "src",
+    "rootDir": ".",
     "outDir": "dist",
-    "incremental": true
+    "incremental": true,
+    "baseUrl": "."
   },
-  "include": ["src", "next-env.d.ts"]
+  "include": ["pages", "styles", "next-env.d.ts", "pages"]
 }

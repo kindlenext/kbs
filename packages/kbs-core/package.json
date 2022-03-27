@@ -15,6 +15,9 @@
     "lint": "TIMING=1 eslint src --fix",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
   "devDependencies": {
     "kbs-tsconfig": "*",
     "eslint-preset-kbs": "*",

@@ -9,9 +9,12 @@ export default function Docs() {
     console.log("KBS docs page");
   }, []);
   return (
-    <div>
+    <div className="container my-5">
       <h1>KBS Views</h1>
-      <Link href="example">Example</Link>
+      <Link href="/">Example Component Link</Link>
+      <br />
+      <br />
+      <Button>Hello</Button>
     </div>
   );
 }
