@@ -1,0 +1,43 @@
+@import "styles/common";
+
+.alertBox {
+  opacity: 0;
+  animation: blowUp 0.2s ease-in forwards;
+  position: relative;
+}
+
+.alertBox p {
+  margin: 0;
+}
+
+.alertBox a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+.closeButton {
+  all: unset;
+  position: absolute;
+  top: 5.5px;
+  right: 0;
+  padding: 0 1rem;
+  font-size: 28px;
+  font-weight: 500;
+  color: inherit;
+  opacity: 0.4;
+}
+
+.closeButton:hover {
+  opacity: 1;
+}
+
+@keyframes blowUp {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
