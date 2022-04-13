@@ -15,6 +15,8 @@ export default function Docs() {
       <br />
       <br />
       <Button>Hello</Button>
+      <br />
+      <Link href="/Collapse">Collapse</Link>
     </div>
   );
 }
