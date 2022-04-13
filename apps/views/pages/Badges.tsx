@@ -4,12 +4,10 @@ function Badges() {
   return (
     <div>
       <Badge variant="primary" label="Primary" />
+      <Badge variant="Seconday" label="Badge" />
+      <Badge variant="Dark h1" label="Badge" />
       <PillBadges variant="primary" label="Primary" />
-      <ButtonBadges
-        buttonvariant="primary"
-        labelvariant="light"
-        label="Primary"
-      />
+      <ButtonBadges buttonvariant="primary" labelvariant="light" label="2" />
     </div>
   );
 }
