@@ -13,6 +13,7 @@ export default function Docs() {
       <h1>KBS Views</h1>
       <Link href="/">Example Component Link</Link>
       <br />
+      <Link href="/Progress">Progress</Link>
       <br />
       <Button>Hello</Button>
     </div>
