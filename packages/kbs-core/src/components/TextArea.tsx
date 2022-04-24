@@ -3,7 +3,7 @@ export default function InputTypeTextArea(props: any) {
   return (
     <div>
       <div className="mb-3 col-4">
-        <label for="exampleFormControlTextarea1" class="form-label">
+        <label for="exampleFormControlTextarea1" className="form-label">
           {props.label}
         </label>
         <textarea
