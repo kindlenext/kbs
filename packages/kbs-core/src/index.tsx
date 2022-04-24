@@ -1,4 +1,3 @@
-import * as React from "react";
 import CardTextAlignment from "./components/Cardalign";
 import CardBackgroundColour from "./components/Cardbgclr";
 import CardBody from "./components/Cardbody";
