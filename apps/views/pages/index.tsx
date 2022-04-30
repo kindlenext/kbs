@@ -16,7 +16,7 @@ export default function Docs() {
       <br />
       <Button>Hello</Button>
       <br />
-      <Link href="/Toast">Toasts</Link>
+      <Link href="/toast">Toasts</Link>
     </div>
   );
 }

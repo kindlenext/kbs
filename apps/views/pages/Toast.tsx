@@ -1,4 +1,4 @@
-import { Toasts } from "kbs-core";
+import Toasts from "./components/Toast";
 
 function Toast() {
   return (
