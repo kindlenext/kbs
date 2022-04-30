@@ -1,4 +1,6 @@
-import { Popovers, TitlePopovers, Tooltips } from "kbs-core";
+import Popovers from "./components/Popovers";
+import TitlePopovers from "./components/TitlePopovers";
+import Tooltips from "./components/Tooltips";
 
 function popovers() {
   return (
