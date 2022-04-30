@@ -1,4 +1,6 @@
-import { Badge, PillBadges, ButtonBadges } from "kbs-core";
+import Badge from "./components/Badge";
+import PillBadges from "./components/PillBadges";
+import ButtonBadges from "./components/ButtonBadge";
 
 function Badges() {
   return (
