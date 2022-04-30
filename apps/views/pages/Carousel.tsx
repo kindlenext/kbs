@@ -1,6 +1,8 @@
-import { Slides, SlidesControls, SlidesIndicators } from "kbs-core";
+import SlidesIndicators from "./components/SlidesIndicators";
+import Slides from "./components/Slides";
+import SlidesControls from "./components/SlidesControls";
 
-function Carousel(props: any) {
+function Carousel() {
   return (
     <div>
       <Slides
