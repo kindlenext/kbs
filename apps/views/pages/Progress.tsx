@@ -1,9 +1,7 @@
-import {
-  Progress,
-  ProgressColors,
-  ProgressHeight,
-  ProgressLabel,
-} from "kbs-core";
+import Progress from "./components/Progress";
+import ProgressColors from "./components/ProgressColors";
+import ProgressHeight from "./components/ProgressHeight";
+import ProgressLabel from "./components/ProgressLabels";
 
 function ProgressTest() {
   return (
